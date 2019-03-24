@@ -1,4 +1,4 @@
-body {
+html {
   background-color: black;
   font-family: "Verdana", sans-serif;
   text-align: center;
@@ -9,25 +9,23 @@ body {
   font-size: 16px;
 }
 
-.header {
+h1 {
+  color: white;
   font-weight: normal;
   font-size: 50px;
+}
+
+h2 {
   color: white;
-}
-
-.description {
-  font-size: 21px;
-  color: gray;
-}
-
-.subheader {
   font-weight: 300;
   font-size: 42px;
-  color: white;
+}
+
+p {
+  font-size: 21px;
+  color: gray;
 }
 
 .footer {
   text-align: right;
-  font-size: 21px;
-  color: gray;
 }
